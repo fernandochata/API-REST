@@ -1,0 +1,30 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "template for api rest - tasks",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandochata/API-REST.git"
+  },
+  "keywords": [],
+  "author": "Fernando Chata",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/fernandochata/API-REST/issues"
+  },
+  "homepage": "https://github.com/fernandochata/API-REST#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
